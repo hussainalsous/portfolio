@@ -39,3 +39,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local QA / Playwright artifacts
+.playwright-mcp/
+*-01-hero.png
+*-02-projects-top.png
+*-03-talento-card.png
+*-04-psa-card.png
+*-05-techexpertise.png
+*-06-bottom.png
+*-full.png
+390-*.png
+768-*.png
+anim-*.png
+scroll-test.png
+1280-talento.png
