@@ -28,13 +28,14 @@ export const contactContent: ContactContent = {
   eyebrow: "Contact",
   heading: "Let's Work Together",
   paragraph:
-    "Have an idea, a project, or an opportunity in mind? I'm always open to meaningful conversations about building intelligent software and solving challenging technical problems.",
+    "Have an idea, a project, or an opportunity in mind? I'm always open to meaningful conversations about building solid software and automating the workflows around it.",
   availabilityStatement: "Open to opportunities and collaborations.",
   availabilityTags: [
     "Full-Time",
     "Freelance",
-    "AI & Computer Vision",
     "Full-Stack Development",
+    "Workflow Automation (n8n)",
+    "Computer Vision",
     "Technical Collaboration",
   ],
   methods: [

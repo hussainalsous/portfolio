@@ -23,8 +23,8 @@ export function Projects() {
             Featured Projects
           </h2>
           <p className="max-w-2xl text-muted-foreground">
-            Selected systems I&apos;ve designed and built, combining AI, software
-            engineering, and computer vision.
+            Selected systems I&apos;ve designed and built, combining
+            automation, software engineering, and computer vision.
           </p>
         </Reveal>
 

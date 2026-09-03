@@ -32,7 +32,7 @@ export function renderSocialCard() {
           fontFamily: "sans-serif",
         }}
       >
-        <div style={{ display: "flex", gap: 12, marginBottom: 32 }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginBottom: 32 }}>
           {siteConfig.roleTags.map((tag) => (
             <div
               key={tag.label}

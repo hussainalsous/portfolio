@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "Hussain Alsous | AI & Full-Stack Engineer";
+const title = "Hussain Alsous | Full-Stack Engineer";
 const description =
-  "Hussain Alsous is an AI & Full-Stack Engineer building intelligent web, mobile, and computer vision systems — from semantic search to automated matching.";
+  "Hussain Alsous is a Full-Stack Engineer building web, mobile, and computer vision products — automated with n8n and integrated with LLMs.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -27,15 +27,14 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.name }],
   keywords: [
     "Hussain Alsous",
-    "AI Engineer",
     "Full-Stack Engineer",
+    "Workflow Automation",
+    "n8n",
+    "LLM Integration",
     "Computer Vision",
-    "Artificial Intelligence",
-    "Machine Learning",
     "Web Development",
     "Mobile Development",
-    "Intelligent Systems",
-    "Semantic Search",
+    "REST APIs",
   ],
   alternates: {
     canonical: "/",

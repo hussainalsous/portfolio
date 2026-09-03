@@ -36,13 +36,14 @@ export type SiteConfig = {
 export const siteConfig: SiteConfig = {
   name: "Hussain Alsous",
   positioning:
-    "AI & Full-Stack Engineer building intelligent web, mobile, and computer vision systems.",
+    "Full-Stack Engineer building web, mobile, and computer vision products, automated with n8n and LLMs.",
   supportingStatement:
-    "I design and build full-stack web and mobile products — with a focus on the AI and computer vision layers that make them intelligent, from semantic search to automated matching.",
+    "I design and build full-stack web and mobile products — including real-time computer vision systems — and connect them with automated workflows, using n8n to orchestrate processes and LLMs to add intelligent, language-aware steps where they add real value.",
   roleTags: [
-    { label: "AI Engineering" },
     { label: "Full-Stack Development" },
     { label: "Computer Vision" },
+    { label: "Workflow Automation (n8n)" },
+    { label: "LLM Integration" },
   ],
   cta: {
     primary: { label: "View Projects", href: "#projects" },

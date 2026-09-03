@@ -17,17 +17,17 @@ export function getPersonJsonLd() {
   const person: Record<string, unknown> = {
     "@type": "Person",
     name: siteConfig.name,
-    jobTitle: "AI & Full-Stack Engineer",
+    jobTitle: "Full-Stack Engineer",
     description: siteConfig.positioning,
     url: SITE_URL,
     knowsAbout: [
-      "Artificial Intelligence",
-      "Machine Learning",
-      "Computer Vision",
       "Full-Stack Development",
       "Web Development",
       "Mobile Development",
-      "Semantic Search",
+      "Workflow Automation",
+      "n8n",
+      "LLM Integration",
+      "Computer Vision",
     ],
   };
 
@@ -50,7 +50,7 @@ export function getPersonJsonLd() {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
     url: SITE_URL,
-    name: `${siteConfig.name} | AI & Full-Stack Engineer`,
+    name: `${siteConfig.name} | Full-Stack Engineer`,
     mainEntity: person,
   };
 }

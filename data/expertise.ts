@@ -18,35 +18,6 @@ export type ExpertiseDomain = {
 
 export const expertiseDomains: ExpertiseDomain[] = [
   {
-    slug: "ai-ml",
-    title: "AI & Machine Learning",
-    glyph: "ai",
-    blurb: "Building systems that understand, represent, and match information.",
-    technologies: [
-      "LLMs",
-      "Embeddings",
-      "Semantic Search",
-      "Vector Databases",
-      "AI Agents",
-      "NLP",
-      "Resume / Job Matching",
-    ],
-  },
-  {
-    slug: "computer-vision",
-    title: "Computer Vision",
-    glyph: "vision",
-    blurb: "Reading visual signals in real time — faces, hands, and motion as data.",
-    technologies: [
-      "OpenCV",
-      "MediaPipe",
-      "Image Processing",
-      "Face & Hand Tracking",
-      "Real-Time Vision",
-      "Computer Vision",
-    ],
-  },
-  {
     slug: "full-stack",
     title: "Full-Stack Engineering",
     glyph: "fullstack",
@@ -62,10 +33,36 @@ export const expertiseDomains: ExpertiseDomain[] = [
     ],
   },
   {
+    slug: "automation",
+    title: "Workflow Automation & LLM Integration",
+    glyph: "ai",
+    blurb: "Wiring services together and adding language-aware steps where they save real work.",
+    technologies: [
+      "n8n",
+      "LLM APIs",
+      "Prompt Design",
+      "Webhooks",
+      "Workflow Orchestration",
+    ],
+  },
+  {
+    slug: "computer-vision",
+    title: "Computer Vision",
+    glyph: "vision",
+    blurb: "Reading visual signals in real time — faces, hands, and motion as data.",
+    technologies: [
+      "OpenCV",
+      "MediaPipe",
+      "Image Processing",
+      "Face & Hand Tracking",
+      "Real-Time Vision",
+    ],
+  },
+  {
     slug: "data-infra",
     title: "Data & Infrastructure",
     glyph: "data",
-    blurb: "The services and data layers that keep intelligent systems fast and reliable.",
-    technologies: ["MySQL", "Redis", "Qdrant", "Docker", "n8n", "Supabase"],
+    blurb: "The services and data layers that keep automated systems fast and reliable.",
+    technologies: ["MySQL", "Redis", "Qdrant", "Docker", "Supabase"],
   },
 ];

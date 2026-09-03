@@ -22,7 +22,7 @@ export function TechnicalExpertise() {
             Technical Expertise
           </h2>
           <p className="max-w-2xl text-muted-foreground">
-            The tools and technologies I use to turn intelligent ideas into
+            The tools and technologies I use to build and automate
             production-ready systems.
           </p>
         </Reveal>

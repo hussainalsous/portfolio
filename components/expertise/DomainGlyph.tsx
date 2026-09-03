@@ -8,10 +8,11 @@ type DomainGlyphProps = {
 /**
  * A small, static per-domain accent glyph — not a full diagram. Reuses the
  * site's established line-art language at a much quieter scale than the
- * Hero/Projects diagrams: dots+lines for AI and data flow, the same focus
- * bracket used by the Presentation Skills Analyzer visual for Computer
- * Vision, and stacked bars for layered full-stack architecture. Colored via
- * `currentColor` so the parent's hover utility drives its appearance.
+ * Hero/Projects diagrams: dots+lines for automated workflow/data flow, the
+ * same focus bracket used by the Presentation Skills Analyzer visual for
+ * Computer Vision, and stacked bars for layered full-stack architecture.
+ * Colored via `currentColor` so the parent's hover utility drives its
+ * appearance.
  */
 export function DomainGlyph({ variant, className }: DomainGlyphProps) {
   return (
